@@ -34,7 +34,9 @@ We merge the information learned from the two modalities via late fusion.
 To do this, we retrieved the last fully-connected layers of the two models,
 concatenated the feature sets of each modality, then formed a model of
 classification.
+
 ![alt text](https://github.com/RosRed/Multimodal-Emotion-Recognition-on-RAVDESS-dataset/blob/main/img/late_fusion.png)
+
 1. **model 1**: Considers the facial emotion recognition model.
 2. **model 2**: Considers the speech emotion recognition model.
 
