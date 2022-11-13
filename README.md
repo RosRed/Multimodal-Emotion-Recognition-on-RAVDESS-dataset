@@ -16,7 +16,7 @@ spectrogram, then into a Mel scale.
 3. Next comes the conversion to logarithmic scale, which is performed with the Librosa library [50].
 4. Finally, the logarithmic spectrogram is converted into an image.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/RosRed/Multimodal-Emotion-Recognition-on-RAVDESS-dataset/blob/main/img/proc_audio.png)
 
 ## Facial Emotion Recognition:
 
