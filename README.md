@@ -19,6 +19,15 @@ spectrogram, then into a Mel scale.
 ![alt text](https://github.com/RosRed/Multimodal-Emotion-Recognition-on-RAVDESS-dataset/blob/main/img/proc_audio.png)
 
 ## Facial Emotion Recognition:
-
+For facial emotion recognition, we first extracted the images from the
+videos at 30 frames per second, choosing 20 frames from each video (increase
+the number or use all the images will make the process more expensive in terms of
+calculation), converting them into 720*720 square images from their original size
+of 1280*720, then detecting the face using the Dlib library ,
+resizing to 48*48, and finally converting them to grayscale.
+We used the ###LRCN approach, which combines the CNN and LSTM layers into one
+single model. In our case, we used the pre-trained CNN model "Emotion" in
+using the weights of the facial expression model, which is implemented in the library
+DeepFace.
 ##Results Fusion
 
